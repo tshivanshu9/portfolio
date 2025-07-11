@@ -31,7 +31,7 @@ const Hero = () => {
               Full Stack Developer
             </motion.span>
             <motion.p
-              variants={container(1)}
+              variants={container(0.5)}
               initial="hidden"
               animate="visible"
               className="my-2 max-w-xl py-6 font-light tracking-tighter"
@@ -43,9 +43,9 @@ const Hero = () => {
         <div className="w-full lg:w-1/2 lg:p-8">
           <div className="flex justify-center">
             <motion.img
+              whileInView={{ x: 0, opacity: 1 }}
               initial={{ x: 100, opacity: 0 }}
-              animate={{ x: 0, opacity: 1 }}
-              transition={{ duration: 1, delay: 1.2 }}
+              transition={{ duration: 1, delay: 0.5 }}
               src={profilePic}
               alt="Shivanshu"
             />
