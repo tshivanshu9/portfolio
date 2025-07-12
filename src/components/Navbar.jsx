@@ -1,6 +1,5 @@
 import logo from '../assets/krlogo.png';
-import { FaLinkedin } from 'react-icons/fa';
-import { FaGithub } from 'react-icons/fa';
+import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import { SOCIAL_LINKS } from '../constants';
 
 const Navbar = () => {

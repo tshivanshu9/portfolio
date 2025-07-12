@@ -1,11 +1,7 @@
 import { RiReactjsLine } from 'react-icons/ri';
-import { FaNodeJs } from 'react-icons/fa';
-import { DiMongodb } from 'react-icons/di';
-import { SiExpress } from 'react-icons/si';
-import { DiRedis } from 'react-icons/di';
-import { SiApachekafka } from 'react-icons/si';
-import { SiNestjs } from 'react-icons/si';
-import { FaAws } from 'react-icons/fa';
+import { FaNodeJs, FaAws } from 'react-icons/fa';
+import { DiMongodb, DiRedis } from 'react-icons/di';
+import { SiExpress, SiApachekafka, SiNestjs } from 'react-icons/si';
 import { motion } from 'framer-motion';
 
 const iconVariants = (duration) => ({
