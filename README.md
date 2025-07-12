@@ -66,7 +66,7 @@ portfolio/
 ├── src/
 │   ├── assets/               # Images and media files
 │   │   ├── projects/         # Project screenshots
-│   │   ├── kevinRushProfile.jpg
+│   │   ├── myProfilePic1.jpg
 │   │   └── about.jpg
 │   ├── components/           # React components
 │   │   ├── Navbar.jsx       # Navigation bar
@@ -273,7 +273,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - Design inspiration from modern portfolio websites
 - Icons from [React Icons](https://react-icons.github.io/react-icons/)
-- Assets from [react-portfolio-assets-kevin](https://github.com/kushald/react-portfolio-assets-kevin)
 - Animations powered by [Framer Motion](https://www.framer.com/motion/)
 
 ---

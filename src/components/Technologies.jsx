@@ -1,5 +1,5 @@
 import { RiReactjsLine } from 'react-icons/ri';
-import { FaNodeJs, FaAws, FaDocker, FaJenkins } from 'react-icons/fa';
+import { FaNodeJs, FaAws, FaDocker } from 'react-icons/fa';
 import { DiMongodb, DiRedis } from 'react-icons/di';
 import { SiExpress, SiApachekafka, SiNestjs } from 'react-icons/si';
 import { motion } from 'framer-motion';
