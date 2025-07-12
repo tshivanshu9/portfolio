@@ -10,14 +10,22 @@ const Contact = () => {
         transition={{ duration: 0.5 }}
         className="my-10 text-center text-4xl"
       >
-        {['Get', ' in', ' touch'].map((word, index) => (
-          <span
-            key={index}
-            className={index % 2 === 0 ? 'text-white' : 'text-neutral-500'}
-          >
-            {word}
-          </span>
-        ))}
+        {(() => {
+          const text = 'Get in touch';
+          const specialIndices = [2, 5, 10, 11];
+          return text.split('').map((char, index) => (
+            <span
+              key={index}
+              className={
+                specialIndices.includes(index)
+                  ? 'text-neutral-500'
+                  : 'text-white'
+              }
+            >
+              {char}
+            </span>
+          ));
+        })()}
       </motion.h2>
       <div className="text-center tracking-tighter">
         <motion.p
@@ -39,6 +47,11 @@ const Contact = () => {
         <a className="border-b" href="#">
           {CONTACT.email}
         </a>
+      </div>
+      <div className="mt-8 text-center">
+        <p className="text-sm text-neutral-500">
+          © {new Date().getFullYear()} Shivanshu Tripathi. All rights reserved.
+        </p>
       </div>
     </div>
   );
