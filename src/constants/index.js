@@ -7,6 +7,24 @@ export const HERO_CONTENT = `I am a passionate full stack developer with a knack
 
 export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
+export const EDUCATION = [
+  {
+    year: '2019-2023',
+    degree: 'Bachelor of Technology',
+    institution: 'Indian Institute of Technology Jammu, J&K',
+    description: `Graduated with a Majors in Chemical Engineering and Minors in Computer Science and Engineering. 
+    Developed a strong foundation in software development, algorithms, and data structures. Participated in various coding competitions and hackathons, enhancing problem-solving skills and teamwork.`,
+  },
+  {
+    year: '2017-2018',
+    degree: 'Senior Secondary School',
+    institution: 'SSDEC, Kanpur, UP',
+    description: `Completed Senior Secondary education with a focus on Science and Mathematics. 
+    Developed analytical skills and a strong understanding of fundamental concepts in physics, chemistry, and mathematics.
+    Cleared JEE Mains and Advanced, securing admission to IIT Jammu.`,
+  },
+];
+
 export const EXPERIENCES = [
   {
     year: '2023 - Present',
