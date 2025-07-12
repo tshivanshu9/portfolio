@@ -1,5 +1,5 @@
 import { RiReactjsLine } from 'react-icons/ri';
-import { FaNodeJs, FaAws } from 'react-icons/fa';
+import { FaNodeJs, FaAws, FaDocker, FaJenkins } from 'react-icons/fa';
 import { DiMongodb, DiRedis } from 'react-icons/di';
 import { SiExpress, SiApachekafka, SiNestjs } from 'react-icons/si';
 import { motion } from 'framer-motion';
@@ -98,6 +98,14 @@ const Technologies = () => {
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
           <FaAws className="text-7xl text-orange-400" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(4)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <FaDocker className="text-7xl text-blue-700" />
         </motion.div>
       </motion.div>
     </div>

@@ -15,18 +15,16 @@ const Projects = () => {
       </motion.h2>
       <div>
         {PROJECTS.map((project, index) => (
-          <div className="mb-8 flex flex-wrap lg:justify-center" key={index}>
+          <div className="mb-8 flex flex-wrap lg:justify-center lg:items-center" key={index}>
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: -100 }}
               transition={{ duration: 1 }}
-              className="w-full lg:w-1/4"
+              className="w-full lg:w-1/4 flex justify-center lg:justify-start"
             >
               <img
                 src={project.image}
-                width={150}
-                height={150}
-                className="mb-6 rounded"
+                className="mb-6 rounded w-[130px] h-[130px] object-cover"
                 alt={project.title}
               />
             </motion.div>

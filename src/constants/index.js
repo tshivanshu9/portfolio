@@ -1,11 +1,10 @@
 import project1 from '../assets/projects/project-1.jpg';
 import project2 from '../assets/projects/project-2.jpg';
 import project3 from '../assets/projects/project-3.jpg';
-import project4 from '../assets/projects/project-4.jpg';
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 2 years of hands-on experience, I am now seasoned in building highly scalable and efficient systems from scratch, using technologies like Node.JS, MongoDB, Express, Golang, Redis and Kafka. I also have forst hand experience of modern front-end tools like ReactJS. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 2 years of professional experience, I have worked with a variety of technologies, including Node.js, Express, MongoDB, NestJS, Redis, Kafka, Airflow, AWS SQS, ReactJS and many more. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and learning new technologies.`;
 
 export const EDUCATION = [
   {
@@ -58,33 +57,26 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: 'E-Commerce Website',
+    title: 'Refer and Earn System',
     image: project1,
     description:
-      'A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.',
-    technologies: ['HTML', 'CSS', 'React', 'Node.js', 'MongoDB'],
+      'Built a robust Refer and Earn system for PhysicsWallah, enabling users to earn rewards by referring friends with features like referral tracking, reward management, and user notifications. Used MongoDB for data storage and NestJS for backend development. Redis was used for caching and locking, ensuring high performance and scalability. Used Airflow for scheduling retries for pending payouts. Generated 60Cr+ revenue within just 4 months of launch in March 2025. Sustained a peak traffic of ~800rps during the referral campaigns.',
+    technologies: ['NestJS', 'MongoDB', 'Redis', 'Airflow'],
   },
   {
-    title: 'Task Management App',
+    title: 'In House Push Notification System',
     image: project2,
     description:
-      'An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.',
-    technologies: ['HTML', 'CSS', 'Angular', 'Firebase'],
+      'Developed an in-house notification system for PhysicsWallah, allowing real-time communication with users. Capable of sending personalized notifications based on user preferences and behaviors. Implemented using NestJS for the backend architechture, MongoDB for data storage and Firebase for Pub/Sub messaging. Scaled for a user base of over 1 million active users receiving notifications at a given time. Articulated scheduled jobs using Airflow to ensure timely delivery of notifications.',
+    technologies: ['NestJS', 'MongoDB', 'Firebase', 'Airflow'],
   },
   {
-    title: 'Portfolio Website',
+    title: 'Customer Lifecycle Management System',
     image: project3,
     description:
-      'A personal portfolio website showcasing projects, skills, and contact information.',
-    technologies: ['HTML', 'CSS', 'React', 'Bootstrap'],
-  },
-  {
-    title: 'Blogging Platform',
-    image: project4,
-    description:
-      'A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.',
-    technologies: ['HTML', 'CSS', 'Vue.js', 'Express', 'mySQL'],
-  },
+      'Built a comprehensive Customer Lifecycle Management System for PhysicsWallah, enabling efficient management of user interactions and data. The system includes features like user segmentation, behavior tracking, and personalized communication. Utilized NestJS for backend development, MongoDB for data storage, and Redis for caching. Used Kafka for real-time data processing and event-driven architecture. Built to handle peak traffic with user leads coming at a scale of 500-700 requests per second. Partenered with external vendors like Moengage and LeadSquared for the lead analysis and management.',
+    technologies: ['NestJS', 'MongoDB', 'Redis', 'Kafka', 'AWS SQS'],
+  }
 ];
 
 export const CONTACT = {
