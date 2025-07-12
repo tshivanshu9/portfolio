@@ -1,8 +1,7 @@
 import logo from '../assets/krlogo.png';
 import { FaLinkedin } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
-import { FaTwitterSquare } from 'react-icons/fa';
-import { FaInstagram } from 'react-icons/fa';
+import { SOCIAL_LINKS } from '../constants';
 
 const Navbar = () => {
   return (
@@ -11,10 +10,16 @@ const Navbar = () => {
         <img className="mx-2 w-10" src={logo} alt="logo" />
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-        <FaLinkedin />
-        <FaGithub />
-        <FaTwitterSquare />
-        <FaInstagram />
+        <a
+          href={SOCIAL_LINKS.linkedin}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaLinkedin className="cursor-pointer hover:text-purple-800 transition-colors" />
+        </a>
+        <a href={SOCIAL_LINKS.github} target="_blank" rel="noopener noreferrer">
+          <FaGithub className="cursor-pointer hover:text-purple-800 transition-colors" />
+        </a>
       </div>
     </nav>
   );

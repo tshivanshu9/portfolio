@@ -27,32 +27,32 @@ export const EDUCATION = [
 
 export const EXPERIENCES = [
   {
-    year: '2023 - Present',
-    role: 'Senior Full Stack Developer',
-    company: 'Google Inc.',
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ['Javascript', 'React.js', 'Next.js', 'mongoDB'],
+    year: 'June 2023 - Present',
+    role: 'Software Development Engineer',
+    company: 'PhysicsWallah',
+    description: `Currently working as a Backend Developer at PhysicsWallah, where I am responsible for developing and maintaining scalable web applications.
+    My role involves designing RESTful APIs, optimizing database queries, and ensuring high performance and responsiveness of applications.
+    I collaborate with cross-functional teams to deliver high-quality software solutions that meet business requirements and enhance user experience.`,
+    technologies: [
+      'Node.js',
+      'Express.js',
+      'Nest.js',
+      'MongoDB',
+      'Redis',
+      'Kafka',
+      'AWS',
+      'Airflow',
+      'Firebase',
+    ],
   },
   {
-    year: '2022 - 2023',
-    role: 'Frontend Developer',
-    company: 'Adobe',
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ['HTML', 'CSS', 'Vue.js', 'mySQL'],
-  },
-  {
-    year: '2021 - 2022',
-    role: 'Full Stack Developer',
-    company: 'Facebook',
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ['Python', 'Svelte', 'Three.js', 'Postgres'],
-  },
-  {
-    year: '2020 - 2021',
-    role: 'Software Engineer',
-    company: 'Paypal',
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ['Ruby', 'Rails', 'PHP', 'Sqlite'],
+    year: 'May 2022 - August 2022',
+    role: 'Software Development Intern',
+    company: 'Larsen & Toubro Infotech',
+    description: `Worked as a Software Development Intern at Larsen & Toubro Infotech, where I contributed to the development of a software for client use.
+    My responsibilities included implementing new features, fixing bugs, and improving the overall performance of the application.
+    I gained hands-on experience in full stack development, working with technologies such as Spring Boot and Angular.`,
+    technologies: ['Java', 'Spring Boot', 'Angular'],
   },
 ];
 
@@ -91,4 +91,9 @@ export const CONTACT = {
   address: 'Kanpur, Uttar Pradesh, India',
   phoneNo: '+91 9149918535',
   email: 'tshivanshu9@gmail.com',
+};
+
+export const SOCIAL_LINKS = {
+  linkedin: 'https://www.linkedin.com/in/shivanshu-tripathi-7a043327b/',
+  github: 'https://github.com/tshivanshu9/portfolio',
 };
