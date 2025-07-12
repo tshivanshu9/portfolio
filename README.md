@@ -1,6 +1,6 @@
 # 🚀 Personal Portfolio Website
 
-A modern, responsive personal portfolio website built with React, Vite, and Tailwind CSS featuring smooth animations and clean design. Deployed on [](https://tshivanshu9-portfolio.vercel.app)
+A modern, responsive personal portfolio website built with React, Vite, and Tailwind CSS featuring smooth animations and clean design. Visit by clicking [here](https://tshivanshu9-portfolio.vercel.app)
 
 ![Portfolio Preview](./src/assets/portfolio-preview.png)
 
