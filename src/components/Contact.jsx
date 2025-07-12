@@ -10,7 +10,14 @@ const Contact = () => {
         transition={{ duration: 0.5 }}
         className="my-10 text-center text-4xl"
       >
-        Get in touch
+        {['Get', ' in', ' touch'].map((word, index) => (
+          <span
+            key={index}
+            className={index % 2 === 0 ? 'text-white' : 'text-neutral-500'}
+          >
+            {word}
+          </span>
+        ))}
       </motion.h2>
       <div className="text-center tracking-tighter">
         <motion.p
