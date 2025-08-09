@@ -88,4 +88,5 @@ export const CONTACT = {
 export const SOCIAL_LINKS = {
   linkedin: 'https://www.linkedin.com/in/shivanshu-tripathi-7a043327b/',
   github: 'https://github.com/tshivanshu9/portfolio',
+  resume: 'https://drive.google.com/drive/u/0/folders/1ukIYerirdXMtKGuv0PTMmh_AdhKSc1Kf',
 };

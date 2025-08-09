@@ -1,4 +1,4 @@
-import { FaLinkedin, FaGithub } from 'react-icons/fa';
+import { FaLinkedin, FaGithub, FaGoogleDrive } from 'react-icons/fa';
 import { SOCIAL_LINKS } from '../constants';
 import { useScrollToSection } from '../hooks/useScrollToSection';
 
@@ -60,6 +60,9 @@ const Navbar = () => {
         </a>
         <a href={SOCIAL_LINKS.github} target="_blank" rel="noopener noreferrer">
           <FaGithub className="cursor-pointer hover:text-purple-800 transition-colors" />
+        </a>
+        <a href={SOCIAL_LINKS.resume} target="_blank" rel="noopener noreferrer">
+          <FaGoogleDrive className="cursor-pointer hover:text-purple-800 transition-colors" />
         </a>
       </div>
     </nav>
