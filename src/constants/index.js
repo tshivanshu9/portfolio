@@ -57,18 +57,18 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
+    title: 'AI Content Generator',
+    image: project1,
+    description:
+      'Built a production-grade AI content system using OpenAI (via LiteLLM) and Amazon Titan; deployed on AWS EC2 with LLM routing, prompt design, and observability tooling for scalable inference (100+ req/sec load tested). Features include dynamic content and image generation, for targeted user campaigns.',
+    technologies: ['OpenAI', 'LLM', 'AWS EC2', 'AWS Bedrock'],
+  },
+  {
     title: 'In House Push Notification System',
     image: project2,
     description:
       'Developed an in-house notification system for PhysicsWallah, allowing real-time communication with users. Capable of sending personalized notifications based on user preferences and behaviors. Implemented using NestJS for the backend architecture, MongoDB for data storage and Firebase for Pub/Sub messaging. Scaled for a user base of over 1 million active users receiving notifications at a given time. Articulated scheduled jobs using Airflow to ensure timely delivery of notifications.',
     technologies: ['NestJS', 'MongoDB', 'Firebase', 'Airflow'],
-  },
-  {
-    title: 'Refer and Earn System',
-    image: project1,
-    description:
-      'Built a robust Refer and Earn system for PhysicsWallah, enabling users to earn rewards by referring friends with features like referral tracking, reward management, and user notifications. Used MongoDB for data storage and NestJS for backend development. Redis was used for caching and locking, ensuring high performance and scalability. Used Airflow for scheduling retries for pending payouts. Generated 60Cr+ revenue within just 4 months of launch in March 2025. Sustained a peak traffic of ~800rps during the referral campaigns.',
-    technologies: ['NestJS', 'MongoDB', 'Redis', 'Airflow'],
   },
   {
     title: 'Customer Lifecycle Management System',
