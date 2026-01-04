@@ -15,7 +15,10 @@ const Projects = () => {
       </motion.h2>
       <div>
         {PROJECTS.map((project, index) => (
-          <div className="mb-8 flex flex-wrap lg:justify-center lg:items-center" key={index}>
+          <div
+            className="mb-8 flex flex-wrap lg:justify-center lg:items-center"
+            key={index}
+          >
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: -100 }}
@@ -36,6 +39,19 @@ const Projects = () => {
             >
               <h6 className="mb-2 font-semibold">{project.title}</h6>
               <p className="mb-4 text-neutral-400">{project.description}</p>
+              {project.github && (
+                <div className="my-2">
+                  Github:{' '}
+                  <a
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-purple-800 underline"
+                  >
+                    {project.github}
+                  </a>
+                </div>
+              )}
               {project.technologies.map((tech, idx) => (
                 <span
                   key={idx}

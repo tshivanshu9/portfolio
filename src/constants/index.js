@@ -1,6 +1,8 @@
 import project1 from '../assets/projects/project-1.jpg';
 import project2 from '../assets/projects/project-2.jpg';
 import project3 from '../assets/projects/project-3.jpg';
+import voice from '../assets/projects/voice.jpg';
+import order from '../assets/projects/order.jpg';
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 2 years of hands-on experience, I am now seasoned in building highly scalable and efficient systems from scratch, using technologies like Node.JS, MongoDB, Express, Golang, Redis and Kafka. I also have forst hand experience of modern front-end tools like ReactJS. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -35,13 +37,14 @@ export const EXPERIENCES = [
     technologies: [
       'Node.js',
       'Express.js',
-      'Nest.js',
+      'NestJS',
       'MongoDB',
       'Redis',
       'Kafka',
       'AWS',
       'Airflow',
       'Firebase',
+      'BullMQ',
     ],
   },
   {
@@ -62,6 +65,29 @@ export const PROJECTS = [
     description:
       'Built a production-grade AI content system using OpenAI (via LiteLLM) and Amazon Titan; deployed on AWS EC2 with LLM routing, prompt design, and observability tooling for scalable inference (100+ req/sec load tested). Features include dynamic content and image generation, for targeted user campaigns.',
     technologies: ['OpenAI', 'LLM', 'AWS EC2', 'AWS Bedrock'],
+    github: 'https://github.com/tshivanshu9-pw/hack-mario-persona-be',
+  },
+  {
+    title: 'Voice Enabled Task Management System',
+    image: voice,
+    description:
+      'Developed a full stack voice-enabled task management system integrated with Google Assistant, allowing users to create, update, and manage tasks using voice commands. Implemented using Node.js for the backend, MongoDB for data storage, and Dialogflow for natural language processing. The system supports features like task categorization, deadlines, and reminders, enhancing user productivity through hands-free interaction.',
+    technologies: [
+      'Node.js',
+      'ReactJS',
+      'MongoDB',
+      'Dialogflow',
+      'Google Assistant',
+    ],
+    github: 'https://github.com/tshivanshu9/voice-enabled-task-builder',
+  },
+  {
+    title: 'Order Management System (DEX-style Execution Engine)',
+    image: order,
+    description:
+      'Designed and implemented a high-performance order management system inspired by decentralized exchange (DEX) architectures. The system supports real-time order matching, trade execution, and portfolio management. Built using NodeJS for Backend structure, Redis for in-memory data storage, BullMQ for queue based processing and WebSockets for real-time updates. The platform is capable of handling high-frequency trading scenarios with minimal latency.',
+    technologies: ['Node.js', 'Redis', 'WebSockets', 'BullMQ'],
+    github: 'https://github.com/tshivanshu9/order-exec-engine',
   },
   {
     title: 'In House Push Notification System',
@@ -76,7 +102,7 @@ export const PROJECTS = [
     description:
       'Built a comprehensive Customer Lifecycle Management System for PhysicsWallah, enabling efficient management of user interactions and data. The system includes features like user segmentation, behavior tracking, and personalized communication. Utilized NestJS for backend development, MongoDB for data storage, and Redis for caching. Used Kafka for real-time data processing and event-driven architecture. Built to handle peak traffic with user leads coming at a scale of 500-700 requests per second. Partenered with external vendors like Moengage and LeadSquared for the lead analysis and management.',
     technologies: ['NestJS', 'MongoDB', 'Redis', 'Kafka', 'AWS SQS'],
-  }
+  },
 ];
 
 export const CONTACT = {
@@ -87,6 +113,7 @@ export const CONTACT = {
 
 export const SOCIAL_LINKS = {
   linkedin: 'https://www.linkedin.com/in/shivanshu-tripathi-7a043327b/',
-  github: 'https://github.com/tshivanshu9/portfolio',
-  resume: 'https://drive.google.com/drive/u/0/folders/1ukIYerirdXMtKGuv0PTMmh_AdhKSc1Kf',
+  github: 'https://github.com/tshivanshu9',
+  resume:
+    'https://drive.google.com/file/d/10WkRqyFl8XF2JA7Rsd699NRk52TAkAkX/view?usp=drive_link',
 };
