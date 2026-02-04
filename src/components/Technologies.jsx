@@ -1,6 +1,6 @@
 import { RiReactjsLine } from 'react-icons/ri';
-import { FaNodeJs, FaAws, FaDocker } from 'react-icons/fa';
-import { DiMongodb, DiRedis } from 'react-icons/di';
+import { FaNodeJs, FaAws } from 'react-icons/fa';
+import { DiGo, DiMongodb, DiRedis } from 'react-icons/di';
 import { SiExpress, SiApachekafka, SiNestjs } from 'react-icons/si';
 import { motion } from 'framer-motion';
 
@@ -68,6 +68,14 @@ const Technologies = () => {
           <FaNodeJs className="text-7xl text-green-500" />
         </motion.div>
         <motion.div
+          variants={iconVariants(1.2)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <DiGo className="text-7xl text-[rgb(1,173,216)]" />
+        </motion.div>
+        <motion.div
           variants={iconVariants(3)}
           initial="initial"
           animate="animate"
@@ -98,14 +106,6 @@ const Technologies = () => {
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
           <FaAws className="text-7xl text-orange-400" />
-        </motion.div>
-        <motion.div
-          variants={iconVariants(4)}
-          initial="initial"
-          animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4"
-        >
-          <FaDocker className="text-7xl text-blue-700" />
         </motion.div>
       </motion.div>
     </div>
